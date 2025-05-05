@@ -1,1 +1,22 @@
-# sunilprajapati832.github.io
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunil Prajapati | Portfolio</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; }
+    h1 { color: #333; }
+    a { color: #0077cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Hello, I'm Sunil Prajapati</h1>
+  <p>Welcome to my personal portfolio website.</p>
+  <p>Contact: sunilp832@gmail.com.com</p>
+  <a href="https://www.linkedin.com/in/sunil-prajapati832/">LinkedIn</a> |
+  <a href="https://github.com/sunilprajapati832">GitHub</a>
+</body>
+</html>
