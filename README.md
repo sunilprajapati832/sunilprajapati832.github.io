@@ -122,7 +122,8 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Proficient in Python, MySQL, Image Processing, and Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
+      Proficient in Python, MySQL, Image Processing and Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. 
+      Proven ability in public relations and event management, showcasing leadership and negotiation skills.
     </p>
   </section>
 
