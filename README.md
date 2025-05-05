@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sunil Prajapati | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
-    /* --- Base Theme --- */
     :root {
       --bg: #0e0e0e;
       --text: #ffffff;
@@ -111,7 +109,7 @@
       box-shadow: 0 0 20px rgba(255,255,255,0.05);
     }
 
-    .card p {
+    .card p, .card a {
       color: #ddd;
     }
 
@@ -121,26 +119,17 @@
       text-decoration: none;
     }
 
-    .contact-icons {
-      display: flex;
-      justify-content: center;
-      gap: 2.5rem;
-      font-size: 2rem;
-      margin-top: 1.5rem;
+    .projects a:hover {
+      text-decoration: underline;
     }
 
-    .contact-icons a {
-      color: var(--text);
-      padding: 1rem;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      transition: 0.3s ease;
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
     }
 
-    .contact-icons a:hover {
-      transform: scale(1.2);
-      background: rgba(255,255,255,0.2);
+    .contact a:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -153,11 +142,6 @@
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
-      }
-
-      .contact-icons {
-        font-size: 1.5rem;
-        gap: 1.5rem;
       }
     }
   </style>
@@ -179,7 +163,7 @@
     <h2>About Me</h2>
     <div class="card">
       <p>
-        Proficient in Python, MySQL, Image Processing, and Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
+        Proficient in Python, MySQL, Image Processing & Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
       </p>
     </div>
   </section>
@@ -194,16 +178,14 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <div class="card">
-      <div class="contact-icons">
-        <a href="mailto:sunilp832@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/sunil-prajapati832" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      </div>
+    <div class="card contact">
+      <p>Email: <a href="mailto:sunilp832@gmail.com">sunilp832@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/sunil-prajapati832" target="_blank">linkedin.com/in/sunil-prajapati832</a></p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Sunil Prajapati | Minimal AI Portfolio</p>
+    <p>&copy; 2025 Sunil Prajapati | Portfolio</p>
   </footer>
 
 </body>
