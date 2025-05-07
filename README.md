@@ -14,7 +14,7 @@
     }
     body {
       font-family: 'Orbitron', sans-serif;
-      background: url('https://images.unsplash.com/photo-1601987077608-602b0fdc3c43?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1600267165989-98f36b1267c9?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
       background-size: cover;
       color: white;
       overflow-x: hidden;
@@ -33,10 +33,16 @@
       text-align: center;
       padding: 50px 20px;
     }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid #00ffcc;
+    }
     header h1 {
       font-size: 3rem;
       color: #00ffcc;
-      display: none;
     }
     header h2 {
       margin-top: 10px;
@@ -64,7 +70,7 @@
       line-height: 1.8;
       color: #ddd;
     }
-    .projects a {
+    .projects a, .contact a {
       color: #00ccff;
       text-decoration: underline;
     }
@@ -91,14 +97,15 @@
 </head>
 <body>
   <header>
-    <h1>Hidden Title</h1>
+    <img src="https://avatars.githubusercontent.com/u/104108589?v=4" alt="Sunil Prajapati Avatar">
+    <h1>Sunil Prajapati</h1>
     <h2>Research Student | Data Analytics | Python Developer</h2>
   </header>
 
   <section class="about">
     <h3>About Me</h3>
     <p>
-      Proficient in Python, MySQL, Image Processing, and Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
+      Proficient in Python, MySQL, Image Processing & Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
     </p>
   </section>
 
@@ -111,7 +118,7 @@
 
   <section class="contact">
     <h3>Contact</h3>
-    <p>Email: sunilp832@gmail.com</p>
+    <p>Email: <a href="mailto:sunilp832@gmail.com">sunilp832@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/sunil-prajapati832" target="_blank">linkedin.com/in/sunil-prajapati832</a></p>
   </section>
 
