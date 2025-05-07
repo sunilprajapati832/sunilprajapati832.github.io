@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quantum Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -14,7 +15,7 @@
     }
     body {
       font-family: 'Orbitron', sans-serif;
-      background: url('https://images.unsplash.com/photo-1600267165989-98f36b1267c9?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1581090700227-1e8e1f5644e1?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
       background-size: cover;
       color: white;
       overflow-x: hidden;
@@ -59,20 +60,28 @@
       margin-bottom: 20px;
       color: #00ccff;
     }
-    .about, .projects, .contact {
+    .about, .projects, .skills, .contact {
       background: #111;
       margin-bottom: 20px;
       border-left: 5px solid #00ffcc;
       padding: 20px;
       border-radius: 8px;
     }
-    .about p, .projects p, .contact p {
+    .about p, .projects p, .skills ul, .contact p {
       line-height: 1.8;
       color: #ddd;
     }
     .projects a, .contact a {
       color: #00ccff;
       text-decoration: underline;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 5px 0;
+      color: #0ff;
     }
     footer {
       text-align: center;
@@ -96,27 +105,39 @@
   </style>
 </head>
 <body>
-  <header>
+  <header data-aos="fade-down">
     <img src="https://avatars.githubusercontent.com/u/104108589?v=4" alt="Sunil Prajapati Avatar">
     <h1>Sunil Prajapati</h1>
     <h2>Research Student | Data Analytics | Python Developer</h2>
   </header>
 
-  <section class="about">
+  <section class="about" data-aos="fade-up">
     <h3>About Me</h3>
     <p>
-      Proficient in Python, MySQL, Image Processing & Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
+      Proficient in Python, MySQL, Image Processing, and Machine Learning. Dynamic professional with experience as an Operational Director at Education Development Unit, skilled in strategic planning and resource optimization. Proven ability in public relations and event management, showcasing leadership and negotiation skills.
     </p>
   </section>
 
-  <section class="projects">
+  <section class="skills" data-aos="fade-right">
+    <h3>Skills</h3>
+    <ul>
+      <li>Python</li>
+      <li>MySQL</li>
+      <li>Image Processing</li>
+      <li>Machine Learning</li>
+      <li>Power BI</li>
+      <li>Statistics</li>
+    </ul>
+  </section>
+
+  <section class="projects" data-aos="fade-left">
     <h3>Projects</h3>
     <p>
       Explore my projects on GitHub: <a href="https://github.com/sunilprajapati832" target="_blank">github.com/sunilprajapati832</a>
     </p>
   </section>
 
-  <section class="contact">
+  <section class="contact" data-aos="fade-up">
     <h3>Contact</h3>
     <p>Email: <a href="mailto:sunilp832@gmail.com">sunilp832@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/sunil-prajapati832" target="_blank">linkedin.com/in/sunil-prajapati832</a></p>
@@ -126,7 +147,9 @@
     &copy; 2025 Sunil Prajapati | All rights reserved.
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
+    AOS.init();
     for (let i = 0; i < 60; i++) {
       const spark = document.createElement('div');
       spark.className = 'spark';
