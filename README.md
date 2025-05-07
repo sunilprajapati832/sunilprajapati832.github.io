@@ -14,18 +14,29 @@
     }
     body {
       font-family: 'Orbitron', sans-serif;
-      background: black;
+      background: url('https://images.unsplash.com/photo-1601987077608-602b0fdc3c43?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: white;
       overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: -1;
     }
     header {
       text-align: center;
       padding: 50px 20px;
-      background: radial-gradient(ellipse at center, #0f0f0f 0%, black 100%);
     }
     header h1 {
       font-size: 3rem;
       color: #00ffcc;
+      display: none;
     }
     header h2 {
       margin-top: 10px;
@@ -80,7 +91,7 @@
 </head>
 <body>
   <header>
-    <h1>Sunil Prajapati</h1>
+    <h1>Hidden Title</h1>
     <h2>Research Student | Data Analytics | Python Developer</h2>
   </header>
 
@@ -120,4 +131,3 @@
   </script>
 </body>
 </html>
-
