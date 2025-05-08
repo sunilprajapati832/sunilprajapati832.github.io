@@ -49,9 +49,9 @@
 </head>
 <body>
   <header>
-    <img src="/mnt/data/IMG_20210710_175619_965.jpg" alt="Sunil Prajapati Profile Picture">
+    <img src="https://github.com/sunilprajapati832/sunilprajapati832.github.io/blob/main/rear-view-programmer-working-all-night-long.jpg" alt="Sunil Prajapati Profile Picture">
     <h1>Sunil Prajapati</h1>
-    <p>Operational Director | Python Developer | Data Analyst</p>
+    <p> Python Developer | Data Analyst | Power Bi </p>
   </header>
 
   <section>
